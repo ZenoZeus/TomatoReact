@@ -1,0 +1,20 @@
+.food-display
+{
+    
+    margin-left: 10vw;
+    margin-right: 10vw ;
+    margin-top: 0px;
+}
+.fdr{
+    border: 2px solid rgb(212, 206, 206);
+    background-color: rgb(248, 242, 242);
+    border-radius: 12px;
+}
+.fooddisplaylist
+{
+    display: flex;
+    gap:30px;
+    flex-wrap: wrap;
+    margin-left: 3vw;
+    padding: 0px;
+}

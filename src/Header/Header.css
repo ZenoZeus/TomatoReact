@@ -1,0 +1,44 @@
+.header{
+    height: 34vw;
+    margin: 30px auto;
+    margin-left: 160px;
+    background: url(C:\Users\Harshit\Desktop\sheriyanReact\runRun\my-app\public\header_img.png) no-repeat;
+    position: relative;
+    background-size: contain;
+    color: white;
+    text-overflow: inherit;
+}
+.headcontent{
+    margin-left: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    animation: fadeIn 3s;
+}
+.headcontent h2{
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw,22px);
+}
+.headercontent p{
+    color: tomato;
+    font-size: 1vw;
+}
+.btn{
+    color: tomato;
+    font-size: x-large;
+    border-radius: 12px;
+    border: none;
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

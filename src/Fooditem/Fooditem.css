@@ -1,0 +1,78 @@
+
+.food-item
+{
+    border: 2px solid rgb(245, 245, 245);
+    max-width: 250px;
+    max-height: 400px;
+    gap: 0px;
+    background-color: rgba(237, 225, 225, 0.595);
+    border: 2px solid rgba(237, 225, 225, 0.595);
+    border-radius: 12px;
+    padding-bottom: 10px;
+}
+.food-item-image
+{
+  width: 100%;          /* takes full width of parent */
+  max-width: 250px;     /* but never grow beyond this */
+  height: auto;         /* maintain aspect ratio */
+  border-radius: 12px;
+  object-fit:fill;
+}
+.food-item-info
+{
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+}
+.food-item-info p
+{
+    font-weight: bold;
+    font-size: large;
+    padding:2px;
+    margin: 2px;
+}
+.item-stars
+{
+    width: 30%;
+}
+.item-rating span{
+ padding-right: 50%;
+ font-weight: bolder;
+}
+.food-item-price{
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(246, 137, 4);
+    padding:2px;
+    margin: 2px;
+}
+.food-item-description
+{
+    padding:2px;
+    margin: 2px;
+}
+.item-count{
+    margin-left: 15%;
+    padding-left: 15% ;
+}
+.item-count button{
+    border-radius: 12px;
+    padding: 2px;
+    margin: 2px;    
+    width: 40px;
+    font-weight: bolder;
+    font-size: 15px;
+    border: none;
+}
+.item-count button:hover{
+    background-color: rgb(247, 192, 9);
+        
+}
+.food-item-count{
+
+    font-size: medium;
+    font-weight: bolder;
+    color: rgb(246, 137, 4);
+    padding:2px;
+    margin: 2px;
+}
